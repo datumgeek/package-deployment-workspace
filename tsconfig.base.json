@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mylib/a-one": ["libs/mylib/a-one/src/index.ts"],
+      "@mylib/a-two": ["libs/mylib/a-two/src/index.ts"],
+      "@mylib/r-one": ["libs/mylib/r-one/src/index.ts"],
+      "@mylib/r-two": ["libs/mylib/r-two/src/index.ts"],
+      "@myotherlib/a-three": ["libs/myotherlib/a-three/src/index.ts"],
+      "@myotherlib/r-three": ["libs/myotherlib/r-three/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
